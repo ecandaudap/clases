@@ -5,7 +5,7 @@ class User:
 
 
     # dunder: double underscore
-    def __init__(self, first_name, last_name, brth_date, username, password = '123', email) -> None:
+    def __init__(self, first_name, last_name, brth_date, username, password = '123') -> None:
         self.username = username
         self.name = name
         self.last_name = last_name
